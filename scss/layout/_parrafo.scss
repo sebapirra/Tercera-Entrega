@@ -1,0 +1,13 @@
+@import "utilities/variable";
+
+$medida: 1rem;
+
+@mixin centrar{
+    text-align: center;
+    align-items: center;
+}
+@mixin footer{
+    padding: 20px;
+    margin: 10px;
+    background-color:$color-footer;
+}

@@ -1,0 +1,115 @@
+.fondoHome {
+  background-image: url(/img/mujeres.jpg);
+  background-size: cover; }
+
+body {
+  background-image: linear-gradient(to left, #e6cfe2, whitesmoke); }
+
+.indexTitulo {
+  color: #a52a90;
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  font-family: 'Prompt', sans-serif; }
+
+.centrarMenu {
+  text-align: center; }
+  .centrarMenu nav ul li {
+    display: inline-block; }
+    .centrarMenu nav ul li:hover {
+      transform: scale(1.2); }
+    .centrarMenu nav ul li a {
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      background-color: white;
+      font-size: 1rem;
+      padding: 0.5rem;
+      margin: 0.8rem;
+      border-radius: 1rem; }
+      .centrarMenu nav ul li a:hover {
+        background-color: #f1e0f7; }
+
+main .parrafoHome {
+  font-family: 'Roboto', sans-serif;
+  margin: 340px 10px 20px 10px;
+  font-size: 2rem;
+  font: bold;
+  text-align: center;
+  align-items: center;
+  display: inline-block; }
+
+/*HTML Nosotros*/
+main .parrafoNosotros {
+  font-family: 'Roboto', sans-serif;
+  margin: 30px 10px 30px 10px;
+  font-size: 1.2rem;
+  font: bold;
+  text-align: center;
+  align-items: center;
+  display: inline-block; }
+
+main .centrarVideo {
+  text-align: center;
+  align-items: center; }
+
+footer {
+  padding: 20px;
+  margin: 10px;
+  background-color: #f0acd9; }
+  footer .alturaFooter {
+    font-size: 1rem; }
+
+/*HTML Actividades*/
+main .tituloActiv {
+  background-color: rgba(223, 247, 223, 0.514);
+  font-size: 2.5rem;
+  margin: 4rem 1rem 1rem 1rem; }
+
+main .pAct {
+  font-family: 'Roboto', sans-serif;
+  margin: 0.8rem;
+  font-size: 1.2rem;
+  font: bold;
+  text-align: center;
+  align-items: center;
+  display: inline-block; }
+
+main div {
+  text-align: center; }
+  main div .individualActividades {
+    width: 30rem;
+    margin: 4rem 1rem 1rem 1rem; }
+
+@media only screen and (min-width: 768px) {
+  .tituloActiv {
+    text-align: center;
+    align-items: center; } }
+
+@media only screen and (min-width: 1090px) {
+  .padreSuperior {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .padreAct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    align-items: center; } }
+
+/*HTML Staff*/
+.estilo-p {
+  font-size: 1.5rem; }
+
+.altura-imagen {
+  height: 10rem; }
+
+.separacion-card {
+  margin: 1rem;
+  background-color: rgba(223, 247, 223, 0.514); }
+
+.margen-botones {
+  margin: 1rem; }
+
+.margen-contacto {
+  margin-top: 5rem; }
